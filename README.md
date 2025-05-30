@@ -116,5 +116,5 @@ MIT License.
 
 ## 📬 Contacto
 
-Desarrollado por [Tu Nombre o Usuario de GitHub].  
-Para dudas o sugerencias, abre una issue o escribe a [tuemail@example.com].
+Desarrollado por igortxu.  
+Para dudas o sugerencias, abre una issue o escribe a [igortxu@gmail.com].
