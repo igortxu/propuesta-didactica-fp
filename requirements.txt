@@ -1,0 +1,10 @@
+streamlit
+crewai
+langchain
+pypdf
+openai
+reportlab
+python-dotenv
+fpdf 
+weasyprint
+markdown
