@@ -6,15 +6,6 @@ def save_uploaded_file(file, path):
     with open(path, "wb") as f:
         f.write(file.read())
 
-def extract_modules(path):
-    from PyPDF2 import PdfReader
-    reader = PdfReader(path)
-    text = ""
-    for page in reader.pages:
-        text += page.extract_text()
-    modules = [line.strip() for line in text.split("\n") if "Módulo" in line]
-    return list(set(modules))  # Eliminar duplicados
-
 def create_pdf(markdown_text, output_path):
     # Crear carpeta si no existe
     os.makedirs(os.path.dirname(output_path), exist_ok=True)

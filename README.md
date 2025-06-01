@@ -1,6 +1,6 @@
 # 📘 Generador de Propuesta Didáctica - Formación Profesional
 
-Esta aplicación web permite generar automáticamente propuestas didácticas para módulos de Formación Profesional. A partir de un documento PDF con módulos, el sistema extrae los nombres, permite seleccionar uno, y genera una propuesta didáctica estructurada, traducida automáticamente al euskera, y exportable en PDF.
+Esta aplicación web permite generar automáticamente propuestas didácticas para módulos de Formación Profesional. A partir de un diseño curricular en formato PDF extraído de la Web https://ivac-eei.eus/es/, el sistema extrae los nombres de los módulos, permite seleccionar uno, y genera una propuesta didáctica estructurada en base a un prompt introducido por el usuario, traducida automáticamente al euskera en formato PDF.
 
 ---
 

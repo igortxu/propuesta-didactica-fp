@@ -7,7 +7,7 @@ st.title("📘 Generador de Propuesta Didáctica - FP")
 st.write("¡App cargada correctamente!")
 
 # 1) Subida del archivo PDF
-pdf_file = st.file_uploader("📤 Sube el archivo PDF con módulos", type="pdf")
+pdf_file = st.file_uploader("📤 Sube un diseño curricular en pdf de la página https://ivac-eei.eus/es/", type="pdf")
 
 if pdf_file:
     save_uploaded_file(pdf_file, "pdfs/modules.pdf")
@@ -21,7 +21,7 @@ if pdf_file:
 
     selected_module = st.selectbox("📚 Selecciona un módulo", modules)
 
-    prompt = st.text_area("✏️ Introduce la estructura del prompt", height=300)
+    prompt = st.text_area("✏️ Introduce un prompt con la estructura de la propuesta didáctica que quieras generar:", height=300)
 
     if st.button("🧠 Generar Propuesta Didáctica"):
         if prompt and selected_module:
